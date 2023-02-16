@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto;
 }
 
 .header {
@@ -19,6 +20,23 @@ ul {
 
 li {
     list-style: none;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.top {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .footer {
