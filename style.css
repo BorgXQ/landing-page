@@ -86,7 +86,52 @@ button {
 .one>img {
     height: 280px;
     width: 704px;
-    background-color: white;
+    background-color: #6d747d;
+    color: white;
+    line-height: 280px;
+    text-align: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-bottom: 48px;
+}
+
+.b {
+    padding: 48px 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.pic-w-text {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.pic2 {
+    height: 216px;
+    width: 216px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.content>div {
+    font-size: 22px;
+    color: #727a85;
+    text-align: center;
+    max-width: 216px;
 }
 
 .footer {
