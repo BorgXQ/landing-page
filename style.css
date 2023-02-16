@@ -78,7 +78,7 @@ button {
     color: white;
     border-radius: 12px;
     border: none;
-    padding: 8px 32px;
+    padding: 6px 48px;
     font-size: 18px;
 }
 
@@ -155,13 +155,39 @@ button {
     padding-right: 50px;
 }
 
+.four {
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: 96px 256px;
+    padding: 48px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    font-size: 28px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.product {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.four>button {
+    border: 1px solid #f9faf8;
+}
+
 .footer {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 96px;
 }
 
 .copyright {
     color: #e5e7eb;
+    font-size: 20px;
 }
